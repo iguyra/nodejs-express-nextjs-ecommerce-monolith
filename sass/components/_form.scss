@@ -1,0 +1,32 @@
+.form {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  &__label {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+
+  &__input {
+    padding: 1rem;
+    border: none;
+    background-color: $color-grey-light-1;
+  }
+
+  &__button {
+    padding: 1rem 1rem;
+    width: 100%;
+    background-color: $color-secondary-dark;
+    font-size: 1.4rem;
+    color: $color-white;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 5px 10px 10px $color-grey-light;
+  }
+}

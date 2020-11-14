@@ -1,0 +1,29 @@
+.categories {
+  background-image: linear-gradient(to right, #3498db2d, $color-white);
+  border-bottom: 0.1rem solid #3498db10;
+  padding-top: 10rem;
+
+  &__text {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+
+  &__item {
+    display: flex;
+  }
+  &__list {
+    list-style: none;
+    margin-left: $margin-left-1;
+    font-size: 1.5rem;
+    height: 3rem;
+    background-color: $color-primary-light;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-black;
+    text-transform: capitalize;
+    padding: 0 0.5rem;
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "_id": 1,
+    "image": "/static/lili.jpg",
+    "name": "PANT & KIMONO SOIE",
+    "price": 46,
+    "addtocat": "add to cart"
+  },
+  {
+    "_id": 2,
+    "image": "/static/lili4.jpg",
+    "name": "JUMPSUIT”JE FORCE PAS “",
+    "price": 96,
+    "addtocat": "add to cart"
+  },
+  {
+    "_id": 3,
+    "image": "/static/li0.jpg",
+    "name": "QUEEN COVER-UPS",
+    "price": 26,
+    "addtocat": "add to cart"
+  },
+  {
+    "_id": 4,
+    "image": "/static/llili2.jpg",
+    "name": "FALL FIRE SLEEVELESS TRENCH VEST",
+    "price": 76,
+    "addtocat": "add to cart"
+  }
+]

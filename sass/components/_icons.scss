@@ -1,0 +1,52 @@
+.fa-user,
+.fa-cart-plus {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: $color-black;
+}
+
+.fa-search {
+  outline: none;
+  border: none;
+  background-color: $color-grey-light;
+  cursor: pointer;
+}
+
+.fa-phone-volume,
+.fa-address-card {
+  margin-left: $margin-left-1;
+}
+
+.fa-shopping-cart {
+  font-size: 5rem;
+  background-color: $color-white;
+  padding: 1.5rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.fa-heart,
+.fa-trash-alt {
+  font-size: 1.6rem;
+  color: rgb(219, 140, 37);
+}
+.fa-trash-alt {
+  margin-left: $margin-left-1;
+}
+.fa-heart {
+  border-right: 0.2rem solid $color-grey-light;
+  padding: 0.5rem;
+}
+
+.icon {
+  color: rgba(38, 149, 214, 0.685);
+}
+
+.activeIcon {
+  color: $color-primary;
+}
+
+.fa-user-check {
+  color: $color-primary;
+  font-size: 1.3rem;
+}

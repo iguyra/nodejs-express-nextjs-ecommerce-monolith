@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="header">
+        <div class="header__details">
+          <div class="header__menu" id="headermenu"></div>
+          <a href="/index.html" class="header__name">iguyra</a>
+        </div>
+        <div class="header__profileDetails">
+          <div class="header__profile">
+            <a href="/login.html"><i class="fas fa-user" id="userLogin"></i></a>
+          </div>
+          <div class="header__cart">
+          <a href="/cart.html" class="fas fa-cart-plus">      
+          </i></i></a>
+        </div>
+        </div>
+      </section>
+      <section class="searchbar">
+        <div class="searchbar__details">
+          <input
+            class="searchbar__search"
+            type="text"
+            placeholder="search product"
+          />
+          <button><i class="fas fa-search"></i></button>
+        </div>
+      </section>
+    </section>
+
+
+
+
+    <section class="cartitem">
+        <div class="cartitem__messagedisplay">
+            <p class="cartitem__update">your cart is updated</p> 
+            <p class="cartitem__itemnumber">my cart (2 items)</p>
+        </div>
+      <div class="cartitem__top">
+        
+        <img src="/img/4.jpg" alt="" class="cartitem__img" />
+        <div class="cartitem__details">
+          <p class="cartitem__productname">
+            african printed with leather shoe african printed with leather shoe
+          </p>
+          <p class="cartitem__size">size: one size fits all</p>
+          <p class="cartitem__price">gh: 500</p>
+        </div>
+      </div>
+      <div class="cartitem__bottom">
+        <div class="cartitem__control">
+          <i class="far fa-heart"></i>
+          <i class="fas fa-trash-alt">remove</i>
+        </div>
+        <div class="cartitem__incdes">
+          <p class="cartitem__qunatity cartitem__qunatity--dec">-</p>
+          <p class="cartitem__qunatity cartitem__qunatity--number">2</p>
+          <p class="cartitem__qunatity cartitem__qunatity--inc">+</p>
+        </div>
+      </div>
+
+      <div class="cartitem__checkoutcontainer">
+          <div class="cartitem__container">   
+              <div class="cartitem__totalcontainer">           
+              <p class="cartitem__totalword">total</p>
+              <p class="cartitem__totalprice">ghc: 1000</p>
+            </div>  
+            <p class="cartitem__policy">delievry fee not included</p>         
+          </div>
+          <p class="cartitem__checkout" id="checkout">checkout</p>
+          <p class="cartitem__call">call to order</p>
+      </div>
+    </section>
+
+
+
+<!-- DETAILS -->
+    <section class="details" id="details">
+      <ul class="steps">
+        <p class="steps__list active">details</p>
+        <p class="steps__list">shipping</p>
+        <p class="steps__list">pay</p>
+      </ul>
+
+     <div class="details__container">      
+
+      <div class="details__group">
+        <label for="firstname" class="details__name">first name          
+        </label>
+        <input id="firstname" class="details__input" placeholder="res"  type="text">
+      </div>
+      <div class="details__group">
+        <label for="lastname" class="details__name">last name          
+        </label>
+        <input id="lastname" class="details__input" placeholder="jo" type="text">
+      </div>
+      <div class="details__group">
+        <label for="email" class="details__name">email address          
+        </label>
+        <input id="email" class="details__input" placeholder="res@res.com" type="email">
+      </div>
+      <div class="details__group">
+        <label for="number" class="details__name">phone number          
+        </label>
+        <input id="number" class="details__input" placeholder="0200000000" type="text">
+      </div>
+     <div class="details__next"><a href="#" class="details__next--link" id="proceeddetails">next</a>
+    </div>
+     </div>
+    </section>
+
+
+
+<!-- SHIPPING -->
+    <section class="details shipping" id="shipping">
+      <ul class="steps">
+        <p class="steps__list ">details</p>
+        <p class="steps__list active">shipping</p>
+        <p class="steps__list">pay</p>
+      </ul>
+
+
+     <div class="details__container">      
+
+      <div class="details__group">
+        <label for="country" class="details__name">country          
+        </label>
+        <input id="country" class="details__input" placeholder="eg: Ghana"  type="text">
+      </div>
+      <div class="details__group">
+        <label for="delieveryregion" class="details__name">delievery region         
+        </label>
+        <select class="select" name="select" id="select">
+          <option value="accra">accra</option>
+          <option value="kasoa">kasoa</option>
+          <option value="weija">weija</option>
+        </select>
+      </div>
+      <div class="details__group">
+        <label for="adress" class="details__name">address          
+        </label>
+        <input id="adress" class="details__input" placeholder="eg: 111 bus stop" type="email">
+      </div>
+      <div class="details__group">
+        <label for="notes" class="details__name">additional notes         
+        </label>
+        <input id="notes" class="details__input" placeholder="eg: call me" type="text">
+      </div>
+     <div class="details__next"><a href="#" class="details__next--link" id="shippingproceed">next</a></div>
+     </div>
+    </section>
+
+<!-- PAY -->
+
+    <section class="details pay" id="pay">
+      <ul class="steps">
+        <p class="steps__list ">details</p>
+        <p class="steps__list ">shipping</p>
+        <p class="steps__list active">pay</p>
+      </ul>
+
+
+    <div class="details__summarycontainer">
+      <p class="details__summary">summary</p>
+      <ul class="details__list">
+
+        <li class="details__item"><i class="far icon fa-user"></i>res res</li>
+        <li class="details__item"> <i class="fas icon fa-map-pin"></i>bus stop 100 </li>
+        <li class="details__item"><i class="far icon fa-envelope"></i>res@res.com</li>
+        <li class="details__item"><i class="fas icon fa-phone-alt"></i>0200000000</li>
+      </ul>
+    </div>
+
+    <div class="details__itemcontainer">
+      <ul class="details__alllist">
+        <li class="details__allitems details__allitems--total">total price
+          <p class="details__allitemprice">GH: 950</p>
+        </li>
+        <li class="details__allitems">causal snkeaer GT0
+          <p class="details__allitemprice">GH: 500</p>
+        </li>
+        <li class="details__allitems">causal snkeaer GTA
+          <p class="details__allitemprice">GH: 450</p>
+        </li>
+       
+      </ul>
+
+    </div>
+
+   <div class="details__nextcontainer">
+    <div class="details__next"><a href="#" class="details__next--link" id="paymentproceed">pay</a></div>
+  </div>
+
+    </section>
+
+    
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+

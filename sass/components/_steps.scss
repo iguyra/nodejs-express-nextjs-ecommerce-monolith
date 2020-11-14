@@ -1,0 +1,24 @@
+.steps {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-bottom: $margin-bottom-2;
+  box-shadow: 0 0.3rem $color-secondary-dark;
+  padding: 0.5rem;
+  margin: auto;
+
+  &__list {
+    margin-left: $margin-left-1;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    padding: 0.5rem;
+    text-transform: uppercase;
+  }
+}
+
+.steps .active {
+  background-color: $color-secondary-dark;
+  color: $color-white;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}

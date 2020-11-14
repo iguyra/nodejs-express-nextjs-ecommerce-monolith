@@ -1,0 +1,155 @@
+.productpage {
+  &__imgcontainer {
+    display: flex;
+    white-space: normal;
+    overflow-x: scroll;
+    width: 90%;
+    margin: auto;
+  }
+
+  &__img {
+    box-shadow: 0rem 1rem 1rem $color-grey-light;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    width: 80%;
+  }
+
+  &__detail {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 0rem 0.2rem 0.5rem $color-grey-light;
+    padding: 1rem;
+  }
+  &__price {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+
+  &__name {
+    font-size: 1.4rem;
+  }
+
+  &__descriptionbox {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 0rem 0.2rem 0.5rem $color-grey-light;
+    padding: 0.5rem;
+  }
+
+  &__description {
+    font-size: 1.4rem;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    border: 0.2rem solid $color-grey-light-1;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+
+  &__productimgzoom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $color-white;
+    display: none;
+
+    // display: none;
+  }
+
+  &__zoomimg {
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+
+  &__zoom {
+    width: 100%;
+  }
+}
+
+.addtocart {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: $color-white;
+  border: 0.2rem solid $color-grey-light;
+
+  &__container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: $color-white;
+    margin: auto;
+  }
+
+  &__calllink {
+    color: $color-secondary-dark;
+  }
+
+  &__addlink {
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &__call {
+    background-color: $color-white;
+    padding: 1rem;
+    box-shadow: 0rem 0.2rem 0.5rem $color-grey-light;
+    font-size: 1.6rem;
+  }
+
+  &__add {
+    background-color: $color-secondary-dark;
+    width: 80%;
+
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.return {
+  margin-top: 2rem;
+  box-shadow: 0.2rem 0.3rem 0.3rem $color-grey-light;
+  margin-bottom: 15vh;
+
+  &__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+  }
+
+  &__phrase {
+    margin-left: $margin-left-1;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.3rem solid $color-grey-light;
+  }
+
+  &__icon {
+    padding: 0.5rem;
+    background-color: $color-grey-light;
+    border-radius: 50%;
+  }
+}
+
+.close {
+  font-size: 2rem;
+  background-color: $color-grey-light;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  float: right;
+  cursor: pointer;
+}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import axios from \"axios\";","map":{"version":3,"sources":["C:/Users/USER/Desktop/isave/server/controllers/fauthContoller.js"],"names":["axios"],"mappings":"AAAA,OAAOA,KAAP,MAAkB,OAAlB","sourcesContent":["import axios from \"axios\";\r\n"]},"metadata":{},"sourceType":"module"}

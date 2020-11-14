@@ -1,0 +1,50 @@
+.user {
+  padding-top: 10rem;
+
+  &__container {
+    background-color: $color-grey-light;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border: 0.3px solid $color-primary;
+  }
+
+  &__name {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+  }
+
+  &__email {
+    font-size: 1.1rem;
+  }
+}
+
+.account {
+  margin: auto;
+  margin-top: 2rem;
+  box-shadow: 0px 0px 2px #888888;
+  width: 96%;
+  padding: 1rem;
+
+  &__list {
+    list-style: none;
+  }
+
+  &__first {
+    display: flex;
+  }
+
+  &__item {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  &__orders {
+    margin-left: 1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: $color-black;
+  }
+}

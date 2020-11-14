@@ -1,0 +1,43 @@
+.arrivals {
+  background-color: $color-primary-light;
+  background-image: linear-gradient(
+    to bottom,
+    $color-primary-light,
+    $color-white
+  );
+
+  &__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__item {
+    width: 70%;
+    margin: 0 auto;
+    list-style: none;
+    margin-bottom: 1rem;
+    background-color: $color-white;
+    padding: 1rem;
+    box-shadow: 0rem 0.3rem 0.5rem $color-grey-light;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__details {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &__name {
+    color: $color-black;
+  }
+
+  &__price {
+    color: $color-black;
+    font-weight: 500;
+  }
+}

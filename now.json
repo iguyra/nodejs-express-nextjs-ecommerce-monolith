@@ -1,0 +1,11 @@
+{
+  "version": "2",
+  "name": "iguyra",
+  "alias": "iguyra",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    }
+  ]
+}

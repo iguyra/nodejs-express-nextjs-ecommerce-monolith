@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 1,
+    "image": "/static/lili.jpg",
+    "name": "beautiful dress",
+    "price": 46,
+    "slug": "bikibottom",
+    "addtocat": "add to cart",
+    "description": "Update your collection with this pair of sneakers for the absolute care free look.‎ Simply elegant and crafted from fine canvas with an anti-skid sole "
+  },
+  {
+    "_id": 2,
+    "image": "/static/lili4.jpg",
+    "name": "top and bottom beautiful bikini top and bottom",
+    "price": 96,
+    "slug": "bikitop",
+    "addtocat": "add to cart",
+    "description": "Update your collection with this pair of sneakers for the absolute care free look.‎ Simply elegant and crafted from fine canvas with an anti-skid sole "
+  },
+  {
+    "_id": 3,
+    "image": "/static/lili1.jpg",
+    "name": "top and bottom beautiful bikini top and bottom",
+    "price": 26,
+    "addtocat": "add to cart",
+    "slug": "bikitoptop",
+    "description": "Update your collection with this pair of sneakers for the absolute care free look.‎ Simply elegant and crafted from fine canvas with an anti-skid sole "
+  },
+  {
+    "_id": 4,
+    "image": "/static/lili.jpg",
+    "name": "top and bottom beautiful bikini top and bottom",
+    "price": 46,
+    "addtocat": "add to cart",
+    "slug": "bikitopbottom",
+    "description": "Update your collection with this pair of sneakers for the absolute care free look.‎ Simply elegant and crafted from fine canvas with an anti-skid sole "
+  }
+]

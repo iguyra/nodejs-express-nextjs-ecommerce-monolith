@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  border-left: 2rem solid rgba(28, 116, 218, 0.753);
+}
+
+h6 {
+  font-size: 1.6rem;
+  width: 95%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=global.css.map */

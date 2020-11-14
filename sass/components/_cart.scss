@@ -1,0 +1,51 @@
+.cart {
+  background-color: $color-grey-light-1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  justify-content: space-between;
+
+  padding: 1rem;
+  padding-top: 6rem;
+  box-shadow: 0.5rem 1rem 0.5rem $color-grey-light;
+
+  &__details {
+    margin-bottom: $margin-bottom-1;
+    font-size: 1.6rem;
+  }
+  &__shopping {
+    font-size: 1.4rem;
+    background-color: $color-secondary-dark;
+    width: 80%;
+    text-align: center;
+    color: $color-white;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 1rem 1rem 1rem $color-white;
+    text-transform: uppercase;
+  }
+
+  &__login {
+    color: $color-secondary-light;
+  }
+  &__empty {
+    font-size: 1.4rem;
+    color: $color-grey-dark;
+  }
+  &__description {
+    text-align: center;
+  }
+
+  &__help {
+    margin-top: 1rem;
+  }
+
+  &__chat {
+    font-size: 1.2rem;
+  }
+  &__call {
+    font-size: 1.3rem;
+    color: $color-grey-dark;
+  }
+}

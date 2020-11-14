@@ -1,0 +1,33 @@
+.module {
+  background-color: $color-grey-light;
+  margin-top: 1rem;
+  padding: 1rem;
+
+  &__header {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+}
+
+.logout {
+  margin-top: 2rem;
+  text-align: center;
+
+  &__word {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color: $color-secondary-dark;
+  }
+}
+
+.secondaryheading {
+  padding: 1.5rem;
+  box-shadow: 5px 10px 18px $color-grey-light;
+
+  &__word {
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+}

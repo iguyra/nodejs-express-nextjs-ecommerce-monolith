@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <section class="siginin" id="signin">
+      <a href="/index.html" class="siginin__sitename" id="sitename"
+        >iguyra <span>&larr;</span></a
+      >
+      <form class="siginin__form" action="">
+        <label class="siginin__label" for="email"
+          >email<input
+            class="siginin__input"
+            type="email"
+            id="email"
+            placeholder="eg: res@res.com"
+          />
+        </label>
+        <label class="siginin__label" for="password"
+          >password
+          <input
+            class="siginin__input"
+            type="password"
+            id="password"
+            placeholder="type password"
+        /></label>
+
+        <button class="siginin__button">login</button>
+
+        <div class="siginin__details">
+          <a class="siginin__passwordforgot" href="#">forgot your password ?</a>
+          <a class="siginin__register" href="/signup.html" id="createaccount"
+            >create an account</a
+          >
+        </div>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+.siginin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  &__sitename {
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: $color-black;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+  }
+  &__input {
+    float: right;
+    margin-left: margin-left-1;
+    width: 100%;
+    border-width: 0px;
+    border: 0.2rem solid $color-grey-light-1;
+    height: 3rem;
+    border-radius: 1.5rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__label {
+    font-size: 1.5rem;
+    margin-bottom: $margin-bottom-2;
+    text-transform: capitalize;
+  }
+
+  &__button {
+    width: 60%;
+    margin: auto;
+    cursor: pointer;
+    padding: 0.7rem;
+    background-color: $color-yellow-light;
+    border: none;
+    color: $color-white;
+    box-shadow: 1rem 0.5rem 0.5rem $color-grey-light-1;
+  }
+
+  &__passwordforgot {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-decoration: underline;
+    color: $color-secondary-dark;
+  }
+
+  &__details {
+    margin-top: 2rem;
+  }
+
+  &__register {
+    float: right;
+    font-size: 1.2rem;
+    color: $color-darkgreen;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+.appear {
+  display: none;
+}

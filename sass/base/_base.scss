@@ -1,0 +1,29 @@
+@import "../abstracts/variables";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  border-left: 2rem solid $color-primary;
+}
+
+h6 {
+  font-size: 1.6rem;
+  width: 95%;
+  margin: 0 auto;
+}
