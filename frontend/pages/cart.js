@@ -27,7 +27,7 @@ class cart extends React.Component {
   render() {
     const { user, cart } = this.state;
 
-    return <Layout>{cart ? <CartWithItem /> : <EmptyCart />}</Layout>;
+    return <Layout>{cart.totalProductsCount >= 1 ? <CartWithItem /> : <EmptyCart />}</Layout>;
   }
 }
 export default cart;

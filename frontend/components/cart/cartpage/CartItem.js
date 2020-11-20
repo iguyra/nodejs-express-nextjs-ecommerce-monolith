@@ -28,7 +28,7 @@ const CartItem = ({ product }) => {
 
     // const elementParent = itemToBeRemoved.parentNode.parentNode.parentNode.parentNode.parentNode;
 
-    // const element = itemToBeRemoved.parentNode.parentNode.parentNode.parentNode;
+    // const element = itemToBseRemoved.parentNode.parentNode.parentNode.parentNode;
 
     // elementParent.removeChild(element);
 
