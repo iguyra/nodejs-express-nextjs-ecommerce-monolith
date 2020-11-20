@@ -1,0 +1,73 @@
+.product {
+  margin-top: 3rem;
+  box-shadow: 1rem 0.2rem 1rem $color-grey-light;
+  padding-bottom: 2rem;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+  &__item {
+    padding-bottom: 1rem;
+    text-align: center;
+    display: grid;
+
+    &:hover {
+      box-shadow: 0 0.2rem 0.3rem $color-grey-light;
+    }
+  }
+
+  &__img {
+    width: 80%;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-grey-dark-1;
+  }
+
+  &__list {
+    width: 90%;
+    list-style: none;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+  }
+
+  &__details {
+    text-align: center;
+  }
+
+  &__price {
+    font-size: 1.6rem;
+    background-color: $color-grey-light-1;
+    font-weight: 500;
+  }
+
+  &__name {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__phrase {
+    font-size: 1.6rem;
+    width: 90%;
+    margin: 1rem auto;
+    background-color: $color-grey-light;
+    padding: 0.5rem;
+  }
+
+  &__addtocart {
+    text-align: start;
+
+    &--text {
+      font-size: 1rem;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-top: 1rem;
+      cursor: pointer;
+      padding: 0.5rem;
+      background-color: $color-grey-light;
+    }
+  }
+}

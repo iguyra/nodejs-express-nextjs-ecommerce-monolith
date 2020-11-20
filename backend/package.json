@@ -1,0 +1,30 @@
+{
+  "name": "isave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "preston anderson",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "nodemailer": "^6.4.16",
+    "validator": "^13.1.17"
+  }
+}

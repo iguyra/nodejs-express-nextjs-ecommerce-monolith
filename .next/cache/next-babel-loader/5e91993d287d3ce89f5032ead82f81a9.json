@@ -1,1 +1,0 @@
-{"ast":null,"code":"const dummy = (req, res) => {\n  const user = {\n    name: \"ress\",\n    password: 1234\n  };\n  res.status(201).json({\n    status: \"success\",\n    token: \"\",\n    data: {\n      user: user\n    }\n  });\n};\n\nmodule.exports = dummy;","map":null,"metadata":{},"sourceType":"script"}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,qBAAa,CAAC;EACZ,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,GAAG;CACX;;AAEA,AAAD,eAAO,CAAC;EACN,KAAK,EAAE,GAAG;CACX",
+    "sources": [
+        "CartIcon.module.scss"
+    ],
+    "names": [],
+    "file": "CartIcon.module.css"
+}
