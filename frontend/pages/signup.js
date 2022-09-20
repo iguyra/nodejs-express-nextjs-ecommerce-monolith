@@ -21,7 +21,7 @@ export default class signup extends React.Component {
 
     const { email, password, passwordConfirm } = this.state;
 
-    const { data } = await axios.post("http://localhost:3000/api/users/signup", { email, password, passwordConfirm });
+    const { data } = await axios.post("xxxxxxxxxxxx", { email, password, passwordConfirm });
 
     console.log("this details", email, password, passwordConfirm);
     this.setState({ data: data });
